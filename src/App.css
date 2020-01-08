@@ -1,68 +1,49 @@
-html,body{
-   /* Location of the image */
+html,
+body {
+  /* Location of the image */
   background-image: url("wraith.jpg");
-  
-  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
-  /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
   background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
   background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
   background-color: #464646;
-
 }
 
-.container{
+.container {
   display: flex;
-  border-style: dashed;
-  border-color: blue;
-  border-width: 5px;
-  height: 96vh; 
+  height: 96vh;
 }
 
-.card-input{
-  align-self:center;
-  justify-self:center;
-  margin:auto;
-  border-color:white;
-  border-style: solid;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  background-color: rgba(0,0,0,.5);
-  
+.card-input {
+  align-self: center;
+  justify-self: center;
+  margin: auto;
+  padding: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-h1{
+h1 {
   color: #0e9ec9;
-  margin-top: 2rem;
+
   margin-left: 4rem;
-  margin-right:4rem;
+  margin-right: 4rem;
 }
 
-
-
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin-bottom: 10px;
+  margin-right: 9px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 1.5rem;
 }
 
-label{
-  font-size:3vh;
+label {
+  font-size: 3vh;
   color: #0e9ec9;
-
 }
-
